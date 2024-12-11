@@ -6,24 +6,24 @@ defmodule Export.Mixfile do
       app: :export,
       description: "Erlport wrapper for Elixir",
       package: package(),
-      version: "0.1.1",
-      elixir: "~> 1.2",
+      version: "0.2.0",
+      elixir: "~> 1.6",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       deps: deps(),
       docs: [
         main: Export,
-        source_url: "https://github.com/fazibear/export"
+        source_url: "https://github.com/pathpub/export"
       ]
     ]
   end
 
   def package() do
     [
-      maintainers: ["Michał Kalbarczyk"],
+      maintainers: ["jimmybot", "mdg"],
       licenses: ["MIT"],
       links: %{
-        github: "https://github.com/fazibear/export"
+        github: "https://github.com/pathpub/export"
       }
    ]
   end
