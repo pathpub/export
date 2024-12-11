@@ -36,8 +36,8 @@ defmodule Export.Mixfile do
 
   defp deps() do
     [
-      {:erlport, "~> 0.10"},
-      {:ex_doc, ">= 0.0.0", only: :dev},
+      {:erlport, "~> 0.11"},
+      {:ex_doc, ">= 0.35.1", only: :dev},
     ]
   end
 end
